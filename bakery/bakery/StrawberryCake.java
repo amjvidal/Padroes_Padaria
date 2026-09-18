@@ -1,7 +1,7 @@
 public class StrawberryCake extends Cake {
     @Override
     public int getCost() {
-        return 20;
+        return super.getCost() * 2;
     }
 
     @Override
