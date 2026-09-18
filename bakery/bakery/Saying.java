@@ -8,6 +8,6 @@ public class Saying extends CakeDecorator {
     
     @Override
     public String getDescription() {
-        return super.getDescription() + " with saying '" + saying + "'"; 
+        return super.getDescription() + " with saying \"" + saying + "\""; 
     }
 }
